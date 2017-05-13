@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<scenario>
+  <application path="UIAutoTest.TestTargetApp.exe">
+    <launchWaitTimeout>2000</launchWaitTimeout>
+  </application>
+  <actions>
+    <clearText target="txtPassword"/>
+    <setText target="txtPassword" value="coucou"/>
+    <linkClick target="linkLabel1" waitForAction="100"/>
+    <formSwitch/>
+    <checkLabel target="lblLogUser" value="User72" errMsg="Problem with the login"/>
+  </actions>
+</scenario>
