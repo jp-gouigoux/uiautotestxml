@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIAutoTest.Core", "UIAutoTest.Core\UIAutoTest.Core.csproj", "{C9EC7CC8-6178-40D9-BCAA-75C5C568EB90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIAutoTest.Console", "UIAutoTest.Console\UIAutoTest.Console.csproj", "{44ABE59A-0557-47B7-876D-0A03A12A57D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIAutoTest.TestTargetApp", "UIAutoTest.TestTargetApp\UIAutoTest.TestTargetApp.csproj", "{05461071-88D0-4D1B-AFE4-1A022E7FDF21}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs01.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = UIAutoTest.Core\\UIAutoTest.Core.csproj
+		SccProjectName1 = UIAutoTest.Core
+		SccLocalPath1 = UIAutoTest.Core
+		SccProjectUniqueName2 = UIAutoTest.Console\\UIAutoTest.Console.csproj
+		SccProjectName2 = UIAutoTest.Console
+		SccLocalPath2 = UIAutoTest.Console
+		SccProjectUniqueName3 = UIAutoTest.TestTargetApp\\UIAutoTest.TestTargetApp.csproj
+		SccProjectName3 = UIAutoTest.TestTargetApp
+		SccLocalPath3 = UIAutoTest.TestTargetApp
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9EC7CC8-6178-40D9-BCAA-75C5C568EB90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9EC7CC8-6178-40D9-BCAA-75C5C568EB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9EC7CC8-6178-40D9-BCAA-75C5C568EB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9EC7CC8-6178-40D9-BCAA-75C5C568EB90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44ABE59A-0557-47B7-876D-0A03A12A57D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44ABE59A-0557-47B7-876D-0A03A12A57D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44ABE59A-0557-47B7-876D-0A03A12A57D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44ABE59A-0557-47B7-876D-0A03A12A57D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05461071-88D0-4D1B-AFE4-1A022E7FDF21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05461071-88D0-4D1B-AFE4-1A022E7FDF21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05461071-88D0-4D1B-AFE4-1A022E7FDF21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05461071-88D0-4D1B-AFE4-1A022E7FDF21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

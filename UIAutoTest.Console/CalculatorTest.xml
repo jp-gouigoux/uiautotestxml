@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<scenario>
+  <application path="calc.exe">
+    <launchWaitTimeout>2000</launchWaitTimeout>
+  </application>
+  <actions>
+    <setText target="403" value="123"/>
+    <buttonClick target="92" waitForAction="100"/>
+    <setText target="403" value="456"/>
+    <buttonClick target="112" waitForAction="100"/>
+    <checkText target="403" value="579, " errMsg="Mauvais calcul"/>
+  </actions>
+</scenario>
